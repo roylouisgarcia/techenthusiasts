@@ -1,0 +1,198 @@
+---
+---
+
+@import "minima";
+
+
+@font-face {
+  font-family: "dinbold";
+  src: url("/assets/css/din-bold.ttf");
+}
+
+@font-face {
+  font-family: "dinregular";
+  src: url("/assets/css/din-regular.ttf");
+}
+@font-face {
+  font-family: "dinlight";
+  src: url("/assets/css/din-light.ttf");
+}
+
+body{
+  font-family: "dinregular";
+  background-color: #ebf1f9;
+  color: #000; }
+
+// This section affects the page header
+.site-header{
+  background-color: #000;
+}
+.page-link, page-link:visited{
+  background-color: whitesmoke;
+  padding-left:15px;
+  padding-right:15px;
+  text-decoration: none;
+}
+.page-link:hover{
+  background-color:  #A11E22;
+  color: #FFE7E5;
+  text-decoration: none;
+}
+// end of stylings for the header
+
+
+a, .site-title, .site-nav, .trigger {
+  color: #A11E22;
+  text-decoration: none;
+  padding-right:5px;
+}
+
+
+ 
+ a:visited, .site-title:visited {
+    color: #A11E22; }
+ 
+ a:hover, a.page-link:hover, a.site-title:hover{
+    color:#ff1a1a;
+    text-decoration: none;
+  }
+
+.social-media-list a:hover {
+    text-decoration: none; }
+
+.social-media-list a:hover .username {
+      text-decoration: underline; }
+
+.highlighter-rouge, .highlight{
+  background-color: #000;
+  color: #A11E22;
+}
+/*
+code{
+  font-family: "dinbold";
+  font-size: 1.1em;
+}
+*/
+
+.site-footer{
+  background-color: #000;
+}
+.post-meta{
+  color: #000;
+  font-size: 1.1em;
+  font-family: "dinregular";
+}
+
+.nostra {
+  padding: 6px;
+  width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+
+.logo-left {
+  height: 50px;
+  width: 40px;
+  padding-right: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.image-left {
+  padding-right: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.image-right {
+  padding-left: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+
+.redarrowleft {
+  width:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+
+.redarrow {
+  width:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.smallerredarrow {
+  width:20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block-content{
+  background-color: #000;
+  color:white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+code{
+  font-family: "dinbold";
+  color: #000;
+  font-size: 1.2em;
+}
+
+
+.date-white{
+  font-family: "dinregular";
+  color: white;
+}
+
+h1.topictitle{
+  color: #A11E22;
+}
+
+/* .pagination a, .pagination span{
+  padding: 7px 18px;
+  border: 1px solid #eee;
+  margin-left: -2px;
+  margin-right: -2px;
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+.pagination a {    
+  &:hover {
+      background-color: #f1f1f1;
+      color: #333;
+  }
+} */
+
+.pagination{
+  background-color: #000;
+  color: #fff;
+  font-family: "dinbold";
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.previous, .next{
+  font-size: .8em;
+}
+
+#current_page{
+  background-color: #A11E22;
+  color: #fff;
+}
